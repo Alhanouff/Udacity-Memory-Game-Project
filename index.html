@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Alhanouf game</title>
+    <meta name="description" content="Simple memory game">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="game-heading">Alhanouf game</h1>
+        </header>
+        <div class="score-panel">
+            <div id="score">
+                <ul class="stars">
+                    <li class="star">
+                        <i class="fas fa-star"></i>
+                    </li>
+                    <li class="star">
+                        <i class="fas fa-star"></i>
+                    </li>
+                    <li class="star">
+                        <i class="fas fa-star"></i>
+                    </li>
+                </ul>
+                <div class="moves">
+                    <span class="moves-count">0</span>
+                    <span class="moves-text"> Moves</span>
+                </div>
+            </div>
+            <div id="timer">
+                <span class="hours">00</span> :
+                <span class="minutes">00</span> :
+                <span class="seconds">00</span>
+            </div>
+            <div id="restart">
+                <i class="fas fa-sync-alt"></i>
+            </div>
+        </div>
+        <ul class="deck">
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+            <li class="card">
+                <i class="fab"></i>
+            </li>
+        </ul>
+    </div>
+    <div id="simpleModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="modal-close-btn">&times;</span>
+                <h2>Congratulations!</h2>
+            </div>
+            <div class="modal-body">
+                <h3>You completed the game successfully!</h3>
+                <p>It took you
+                    <span class="hours"></span>
+                    <span class="mins"></span>
+                    <span class="seconds"></span> &
+                    <span class="moves-count"></span> to finish the game.
+                    <br> Your rating is
+                    <span class="rating"></span> out of 3.
+                </p>
+            </div>
+            <div class="replay">
+                <button type="button" class="modal-replay-btn">
+                    Replay!
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
