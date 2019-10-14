@@ -1,5 +1,5 @@
 //Variable declarations 
-
+//Variable declarations 
 let stars = document.querySelectorAll('.star');
 let movesCount = document.querySelector('.moves-count');
 let movesTxt = document.querySelector('.moves-text');
