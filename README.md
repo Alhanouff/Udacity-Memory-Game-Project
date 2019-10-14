@@ -1,5 +1,5 @@
 # udacity-Memory-Game
-Memory Game is a complete browser-based card matching game (also known as Concentration). But this isn’t just any memory game! It’s a shnazzy, well-designed, feature-packed memory game!
+Memory Game is a complete browser-based card matching game (also known as Concentration). But this isn’t just any memory game! It’s a shnazzy, well-designed, feature-packed memory game!The game board consists of sixteen "cards" arranged in a grid.
 
 You can access the memory game from [this link](https://htmlpreview.github.io/?https://github.com/ogasimli/udacity-Memory-Game/blob/master/index.html).
 
