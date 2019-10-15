@@ -1,5 +1,5 @@
-//Variable declarations 
-//Variable declarations 
+//varible declarations 
+
 let stars = document.querySelectorAll('.star');
 let movesCount = document.querySelector('.moves-count');
 let movesTxt = document.querySelector('.moves-text');
@@ -21,6 +21,7 @@ const deck = document.querySelector('.deck');
 // Get list of cards
 const cards = [].slice.call(deck.children);
 // Create list of card symbols
+//varible declarations 
 let cardSymbols = ['js-square', 'html5', 'css3-alt',
     'python', 'react', 'angular', 'sass', 'less',
     'js-square', 'html5', 'css3-alt',
@@ -74,7 +75,7 @@ function openCard(event) {
 
 
     startTimer();
-
+//varible 
     var target = event.target;
     const parent = target.parentElement;
     if (parent.classList.contains('card')) {
@@ -94,12 +95,12 @@ function startTimer() {
         timer = setInterval(setTime, 1000);
     }
 }
-
+// Stop the timer
 function stopTimer() {
     gameStarted = false;
     clearInterval(timer);
 }
-
+// Set timer
 function setTime() {
     let remainderSeconds = ++elapsedSeconds;
     hour = parseInt(remainderSeconds / 3600);
@@ -171,7 +172,7 @@ function determineRating() {
         stars[0].classList.add('empty-star');
     }
 }
-
+// Increment matches count
 function incrementMatches() {
     matches++;
 }
@@ -249,7 +250,7 @@ function closeModal() {
     modal.style.display = 'none';
 }
 
-/* ----------- Helper functions ----------- */
+// Helper functions 
 
 // Removes element's class based on pattern
 
@@ -261,7 +262,6 @@ function removeClassByPrefix(el, prefix, replace = '') {
 
 /*
 * @description Shuffle elements of array
-*
 * Shuffle function from http://stackoverflow.com/a/2450976
 */
 function shuffle(array) {
@@ -280,7 +280,6 @@ function shuffle(array) {
 
 /*
 * @description Convert min, hour & seconds into string
-*
 * Shuffle function from http://stackoverflow.com/a/2450976
 */
 function stringifyTime(val) {
