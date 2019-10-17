@@ -189,7 +189,7 @@ function restartGame() {
     resetScore();
     resetDeck();
 }
-
+  /* Resets the game */
 function resetScore() {
 
     // Reset rating
@@ -215,13 +215,14 @@ function resetScore() {
     // Stop timer
     stopTimer();
 }
-
+// Reset Deck
 function resetDeck() {
 
-    // Clear openedCards array
+    // openedCards array
     openCards = [];
 
     // Shuffle symbols
+  // Shuffle function
     cardSymbols = shuffle(cardSymbols);
 
     // Iterate over all cards
@@ -279,7 +280,7 @@ function shuffle(array) {
 }
 
 /*
-* @description Convert min, hour & seconds into string
+* description Convert min, hour & seconds into string
 * Shuffle function from http://stackoverflow.com/a/2450976
 */
 function stringifyTime(val) {
