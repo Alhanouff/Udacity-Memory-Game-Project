@@ -25,15 +25,7 @@ How to Run:
 * If the cards do not match, both cards are flipped face down.
 * The game ends once all cards have been correctly matched.
 
-1.Correct match
-
-<img src="./img/correct_move.png" width="450">
-
-2.Completed board
-
-<img src="./img/complete.png" width="450">
-
-3.Game over modal
+Game over model
 
 <img src="./img/modal.png" width="450">
 
