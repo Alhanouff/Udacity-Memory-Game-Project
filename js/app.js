@@ -1,10 +1,10 @@
-//varible declarations 
+/* ----------Variable declarations ----------- */
 
-let stars = document.querySelectorAll('.star');
-let movesCount = document.querySelector('.moves-count');
-let movesTxt = document.querySelector('.moves-text');
-let timerHours = document.querySelector('#timer .hours');
-let timerMins = document.querySelector('#timer .minutes');
+const stars = document.querySelectorAll('.star');
+const movesCount = document.querySelector('.moves-count');
+const movesTxt = document.querySelector('.moves-text');
+const timerHours = document.querySelector('#timer .hours');
+const timerMins = document.querySelector('#timer .minutes');
 let timerSeconds = document.querySelector('#timer .seconds');
 let restartBtn = document.querySelector('#restart');
 let modal = document.querySelector('#simpleModal');
